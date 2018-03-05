@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="-1" name="Failed suite [TestDependency]">
+  <test name="TestCase1(failed)">
+    <classes>
+      <class name="com.testng.TestDatabase1">
+        <methods>
+          <include name="testConnection"/>
+          <include name="initDB"/>
+        </methods>
+      </class> <!-- com.testng.TestDatabase1 -->
+      <class name="com.testng.TestServer">
+        <methods>
+          <include name="deployServer"/>
+          <include name="deployBackUpServer"/>
+        </methods>
+      </class> <!-- com.testng.TestServer -->
+      <class name="com.testng.TestApp">
+        <methods>
+          <include name="method1"/>
+          <include name="method2"/>
+        </methods>
+      </class> <!-- com.testng.TestApp -->
+    </classes>
+  </test> <!-- TestCase1(failed) -->
+</suite> <!-- Failed suite [TestDependency] -->

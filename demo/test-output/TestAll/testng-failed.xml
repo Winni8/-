@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="-1" name="Failed suite [TestAll]">
+  <test name="order(failed)">
+    <classes>
+      <class name="com.testng.Case1">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="beforeClass"/>
+          <include name="afterClass"/>
+          <include name="minusTest" invocation-numbers="1 3"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.testng.Case1 -->
+      <class name="com.testng.TestTimeout">
+        <methods>
+          <include name="testThisShouldFail"/>
+        </methods>
+      </class> <!-- com.testng.TestTimeout -->
+    </classes>
+  </test> <!-- order(failed) -->
+</suite> <!-- Failed suite [TestAll] -->

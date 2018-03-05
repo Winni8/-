@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="gb2312"?> 
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="SuiteName">
+	<listeners>
+		<listener class-name="com.com.demo.RetryListener" > </listener>
+		<listener class-name="com.com.demo.RetryListener"></listener>
+	</listeners>
+	<test name="version" preserve-order="true">
+		<classes>
+			<class name="com.com.demo.Twinkle">
+				<methods>
+					
+					<include name="Addprovince" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite> 

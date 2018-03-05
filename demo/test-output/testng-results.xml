@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="41686" started-at="2018-03-01T03:39:25Z" finished-at="2018-03-01T03:40:07Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="41686" started-at="2018-03-01T03:39:25Z" finished-at="2018-03-01T03:40:07Z">
+      <class name="com.Blog.Testpageobject">
+        <test-method status="PASS" signature="Setup()[pri:0, instance:com.Blog.Testpageobject@1b68ddbd]" name="Setup" is-config="true" duration-ms="2968" started-at="2018-03-01T11:39:25Z" finished-at="2018-03-01T11:39:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method status="PASS" signature="Login()[pri:1, instance:com.Blog.Testpageobject@1b68ddbd]" name="Login" duration-ms="6187" started-at="2018-03-01T11:39:28Z" finished-at="2018-03-01T11:39:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method status="PASS" signature="Messeage()[pri:2, instance:com.Blog.Testpageobject@1b68ddbd]" name="Messeage" duration-ms="11006" started-at="2018-03-01T11:39:35Z" finished-at="2018-03-01T11:39:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Messeage -->
+        <test-method status="PASS" signature="logout()[pri:3, instance:com.Blog.Testpageobject@1b68ddbd]" name="logout" duration-ms="3093" started-at="2018-03-01T11:39:46Z" finished-at="2018-03-01T11:39:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method status="PASS" signature="Login2()[pri:4, instance:com.Blog.Testpageobject@1b68ddbd]" name="Login2" duration-ms="4555" started-at="2018-03-01T11:39:49Z" finished-at="2018-03-01T11:39:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login2 -->
+        <test-method status="PASS" signature="Messeage2()[pri:5, instance:com.Blog.Testpageobject@1b68ddbd]" name="Messeage2" duration-ms="6493" started-at="2018-03-01T11:39:53Z" finished-at="2018-03-01T11:40:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Messeage2 -->
+        <test-method status="PASS" signature="seall()[pri:6, instance:com.Blog.Testpageobject@1b68ddbd]" name="seall" duration-ms="6463" started-at="2018-03-01T11:40:00Z" finished-at="2018-03-01T11:40:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- seall -->
+        <test-method status="PASS" signature="qiut()[pri:0, instance:com.Blog.Testpageobject@1b68ddbd]" name="qiut" is-config="true" duration-ms="897" started-at="2018-03-01T11:40:06Z" finished-at="2018-03-01T11:40:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- qiut -->
+      </class> <!-- com.Blog.Testpageobject -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="-1" guice-stage="DEVELOPMENT" name="Failed suite [SuiteName]">
+  <listeners>
+    <listener class-name="com.com.demo.RetryListener"/>
+    <listener class-name="com.com.demo.RetryListener"/>
+  </listeners>
+  <test name="version(failed)">
+    <classes>
+      <class name="com.com.demo.Twinkle">
+        <methods>
+          <include name="Start"/>
+          <include name="Addprovince"/>
+          <include name="Over"/>
+          <include name="Setup"/>
+          <include name="End"/>
+        </methods>
+      </class> <!-- com.com.demo.Twinkle -->
+    </classes>
+  </test> <!-- version(failed) -->
+</suite> <!-- Failed suite [SuiteName] -->

@@ -1,0 +1,4 @@
+capsion_ticket;"2|1:0|10:1519724644|14:capsion_ticket|44:NmQ4YjM5MGM3ZDliNGU5MjhkYWQwNDU0YTZiYzliMjM=|bb13eb5b4cd8162eb14197fc8e1c285b3da0d4655d1ee1d8c01f9f4932175622";.zhihu.com;/;Thu Mar 29 17:44:04 CST 2018;false
+aliyungf_tc;AQAAALAn/0FgOgkALCT7OvvbV9SAiTE2;www.zhihu.com;/;null;false
+q_c1;1d7d452e2e374551a9e4687bf7fdbda8|1519724641000|1519724641000;.zhihu.com;/;Fri Feb 26 17:44:01 CST 2021;false
+_xsrf;bd88c54f-c774-41e9-b775-8bc99b7a5666;.zhihu.com;/;null;false

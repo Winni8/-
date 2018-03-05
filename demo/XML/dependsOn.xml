@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="TestDependency">
+
+	<test name="TestCase1">
+
+		<classes>
+			<class name="com.testng.TestApp">
+			</class>
+			<class name="com.testng.TestDatabase1">
+			</class>
+			<class name="com.testng.TestServer">
+			</class>
+		</classes>
+
+	</test>
+
+</suite>

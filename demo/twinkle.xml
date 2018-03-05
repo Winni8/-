@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<listeners>
+		<listener class-name="com.com.demo.RetryListener">
+		</listener>
+		<listener class-name="com.com.demo.RetryListener"></listener>
+	</listeners>
+
+	<test thread-count="5" name="TDTest">
+		<classes>
+			<class name="com.com.demo.Twinkle">
+				<methods>
+					<include name="TDlogin" />
+					<include name="Sort" />
+					<include name="Addproduct" />
+					<include name="Addcountry" />
+					<include name="Addprovince" />
+					<include name="pricevs" />
+					<include name="Login_PP" />
+					<include name="GetNum" />
+				</methods>
+			</class>
+		</classes>
+
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
