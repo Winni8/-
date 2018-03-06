@@ -14,7 +14,7 @@ public class Zipfile {
 			//判断一个文件是否是压缩文件；
 			System.out.println(FileHandler.isZipped("E:\\记录.zip"));
 			//讲一个文件解压
-			zip.unzip(new File("E:\\记录.zip"),new File("E:\\gg"));
+			//zip.unzip(new File("E:\\记录.zip"),new File("E:\\gg"));
 		}catch(Exception e){
 			e.printStackTrace();
 		}
